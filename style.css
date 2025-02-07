@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+body {
+    background-color: #0d0208;
+    color: #ff4500;
+    font-family: 'Metal Mania', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    background: rgba(30, 0, 0, 0.9);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px red;
+    text-align: center;
+    position: relative;
+}
+h1 {
+    font-size: 2em;
+    text-shadow: 0 0 10px red;
+}
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    background: black;
+    color: red;
+    font-size: 16px;
+    box-shadow: 0 0 5px red;
+}
+input:focus {
+    box-shadow: 0 0 15px red;
+}
+button {
+    background: red;
+    color: black;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 0 10px red;
+}
+button:hover {
+    background: darkred;
+    box-shadow: 0 0 20px red;
+}
+.flames {
+    position: absolute;
+    width: 100%;
+    height: 10px;
+    bottom: -10px;
+    background: url('https://i.giphy.com/media/3o7abKhOpu0NwenH3O/giphy.gif');
+    background-size: cover;
+}
